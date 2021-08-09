@@ -6,7 +6,10 @@ namespace Modul3HW4
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var class1 = new Class1();
+            class1.Run();
+            var class2 = new Class2();
+            class2.Run();
         }
     }
 }
